@@ -15,7 +15,7 @@ events.on("exec", (e,project) => {
     "cd /src",
     "docker build -t siddhanta28/brigade-test:10 .",
     "docker login -u $DOCKER_USER -p $DOCKER_PASS",
-    "docker push siddhanta28/brigade-test:50"
+    "docker push siddhanta28/brigade-test:10"
   ];
   
   dockerBuild.run();
